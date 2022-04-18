@@ -30,7 +30,7 @@ void draw() {
   image(lifeImg,150,10);
   image(soldierImg, x, 160);
   image(robotImg, 240, 240);
-  image(groundhogImg, 240, 240);
+  image(groundhogImg, 320, 80);
   
   //雷射光
   strokeWeight(10.0);
