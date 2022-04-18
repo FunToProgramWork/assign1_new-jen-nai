@@ -34,7 +34,7 @@ void draw() {
   image(lifeImg,150,10);
   image(soldierImg, x, 160);
   image(robotImg, 240, 240);
-  image(groundhogImg, 50, 100);
+  image(groundhogImg, 200, 160);
   
   strokeWeight(10.0);
   strokeCap(ROUND);
