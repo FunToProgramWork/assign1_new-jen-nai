@@ -3,6 +3,7 @@ PImage soilImg;
 PImage lifeImg;
 PImage soldierImg;
 PImage robotImg;
+PImage groundhogImg;
 int x =0;
 int lightPos = 240+25;
 
@@ -11,12 +12,12 @@ int lightPos = 240+25;
 
 void setup() {
     size(640, 480, P2D);
-    // Enter Your Setup Code Here
    bgImg = loadImage("img/bg.jpg");
    soilImg = loadImage("img/soil.png");
    lifeImg= loadImage("img/life.png");
    soldierImg = loadImage("img/soldier.png");
    robotImg = loadImage("img/robot.png");
+   groundhogImg = loadImage("img/groundhog.png")
 }
 
  
@@ -32,8 +33,8 @@ void draw() {
   image(lifeImg,80,10);
   image(lifeImg,150,10);
   image(soldierImg, x, 160);
-  
   image(robotImg, 240, 240);
+  image(groundhogImg, 250, 30);
   
   strokeWeight(10.0);
   strokeCap(ROUND);
