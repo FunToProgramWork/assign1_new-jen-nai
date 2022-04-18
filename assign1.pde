@@ -1,10 +1,11 @@
 //設立圖片變數
-PImage bgImg;
-PImage soilImg;
-PImage lifeImg;
-PImage soldierImg;
-PImage robotImg;
-PImage groundhogImg;
+PImage bgImg;//背景
+PImage soilImg;//土地
+PImage lifeImg;//生命
+PImage soldierImg;//士兵
+PImage robotImg;//機器人
+PImage groundhogImg;//土撥鼠
+
 int x =0;
 int lightPos = 240+25;
 
